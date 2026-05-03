@@ -1,0 +1,24 @@
+<!-- 
+  ФАЙЛ: index.html
+  НАЗНАЧЕНИЕ: Главный HTML-шаблон вашего приложения.
+  
+  ЭТО ТОЧКА ВХОДА для браузера. Когда вы открываете сайт, загружается именно этот файл.
+  
+  КЛЮЧЕВЫЕ МОМЕНТЫ:
+  - <div id="root"></div>: Пустой контейнер, куда React будет "вставлять" ваше приложение.
+  - <script type="module" src="/src/main.jsx"></script>: Подключает главный JS-файл, который запускает React.
+  - Vite автоматически обрабатывает этот файл и подключает нужные скрипты при сборке.
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>React App</title>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
